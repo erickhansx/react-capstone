@@ -70,6 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://zippy-salamander-5d059d.netlify.app)
+- [Video Presentation](https://www.loom.com/share/9a25981ae12f4002988797016291a5b6)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
