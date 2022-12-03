@@ -18,6 +18,7 @@ Technologies
 # Live Demo
 
 [Demo](https://zippy-salamander-5d059d.netlify.app)
+[VIDEO](https://www.loom.com/share/9a25981ae12f4002988797016291a5b6)
 
 ## Getting Started
 
