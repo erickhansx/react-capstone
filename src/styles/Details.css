@@ -1,0 +1,61 @@
+.price-container {
+  display: flex;
+  background-color: #ec4c8a;
+  padding: 0 20px;
+  min-width: 50%;
+}
+
+.info {
+  color: #fff;
+  height: 100vh;
+  background-color: #fc5192;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Lato, serif;
+}
+
+.info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.industry-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 5px;
+}
+
+.message-error {
+  display: none;
+}
+
+.price-container img {
+  max-width: 5em;
+  margin: 0 auto;
+}
+
+.price-box {
+  text-align: center;
+}
+
+em {
+  font-style: normal;
+}
+
+em:nth-child(1) {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+em:nth-child(2) {
+  color: rgb(234, 255, 0);
+}
+
+.nav-details {
+  font-size: 24px;
+  font-family: Lato, serif;
+  font-weight: 500;
+}

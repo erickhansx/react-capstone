@@ -1,0 +1,21 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.172);
+  background-color: #ec4c8a;
+  padding: 0.5em;
+  color: #fff;
+  width: 100vw;
+  font-size: 24px;
+  font-family: Lato, serif;
+}
+
+svg {
+  color: white;
+}
+
+.settings {
+  display: flex;
+  gap: 1em;
+}
