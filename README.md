@@ -37,8 +37,6 @@
 
 # 📖 [Country Stocks] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
 **[Country Stocks]** is an app where you can check the stock values filtered by country. The app requests information from an api and displays said information on the screen.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -49,8 +47,6 @@
 - Jest
 - API
 - gitFlow
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -63,8 +59,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Retrieve Stocks from the API]**
 - **[Display the list of countries in the home page]**
 - **[Filter the stocks by country]**
@@ -74,8 +68,6 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
 
 - [Live Demo Link](https://zippy-salamander-5d059d.netlify.app)
 
@@ -134,19 +126,11 @@ you can deploy your project through github pages.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Erick Hans Martinez**
 
 - GitHub: [@erickhansx](https://github.com/erickhansx)
 - Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,8 +148,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project like and follow.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -174,6 +156,8 @@ If you like this project like and follow.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+- Special aknowledgement to Nelson Sakwa the author of the original design.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
@@ -181,7 +165,5 @@ If you like this project like and follow.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
