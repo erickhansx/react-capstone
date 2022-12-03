@@ -1,0 +1,41 @@
+.top {
+  display: flex;
+  align-items: center;
+  padding: 0.1em;
+  background-color: hsl(192, 92%, 56%);
+  color: rgb(4, 4, 4, 0.7);
+  font-weight: 800;
+  font-size: 48px;
+  min-height: 250px;
+}
+
+.country-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-inline: 0;
+}
+
+.example-img {
+  width: 50%;
+}
+
+.country-container > * {
+  background-color: hsl(192, 92%, 56%);
+  border: 1px solid rgba(0, 0, 0, 0.172);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-container > *:hover {
+  background-color: hsl(190, 65%, 69%);
+}
+
+.img-container {
+  color: white;
+}
+
+.flagImg {
+  width: 100%;
+}

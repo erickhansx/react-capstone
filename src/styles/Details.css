@@ -1,0 +1,37 @@
+.price-container {
+  margin-inline: 5em;
+  margin-block: 3em;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.message-error {
+  display: none;
+}
+
+.price-container img {
+  max-width: 5em;
+}
+
+.price-box {
+  text-align: initial;
+}
+
+em {
+  font-style: normal;
+}
+
+em:nth-child(1) {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 18px;
+}
+
+em:nth-child(2) {
+  color: rgb(4, 255, 0);
+}
+
+.info {
+  height: 100vh;
+}
