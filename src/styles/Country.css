@@ -1,18 +1,25 @@
 .top {
+  font-family: Lato, serif;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 0.1em;
-  background-color: hsl(192, 92%, 56%);
-  color: rgb(4, 4, 4, 0.7);
-  font-weight: 800;
+  background-color: #fc5192;
+  color: #fff;
   font-size: 48px;
   min-height: 250px;
 }
 
+.top div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
 .country-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  margin-inline: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .example-img {
@@ -20,12 +27,21 @@
 }
 
 .country-container > * {
-  background-color: hsl(192, 92%, 56%);
+  /* background-color: #fc5192; */
   border: 1px solid rgba(0, 0, 0, 0.172);
   font-size: 1.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: Lato, serif;
+}
+
+.country-container > div:nth-of-type(odd) {
+  background-color: #ec4c8a;
+}
+
+.country-container > div:nth-of-type(even) {
+  background-color: #fc5192;
 }
 
 .country-container > *:hover {
@@ -34,8 +50,11 @@
 
 .img-container {
   color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
 }
 
 .flagImg {
-  width: 100%;
+  width: 20%;
 }

@@ -21,6 +21,7 @@ const Details = () => {
         <NavLink to={`/companies/${country}`}>
           <IoIosArrowBack />
         </NavLink>
+        <h3 className="nav-details">details</h3>
         <div className="settings">
           <FaMicrophone />
           <IoMdSettings />
@@ -35,7 +36,7 @@ const Details = () => {
               <h4>{`Price: $${detail.price}`}</h4>
             </div>
           </div>
-          <div>
+          <div className="industry-container">
             <h3>{`Currency: ${detail.currency}`}</h3>
             <h3>{`Industry: ${detail.industry}`}</h3>
             <h3>{`Sector: ${detail.sector}`}</h3>

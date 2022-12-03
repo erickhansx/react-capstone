@@ -16,8 +16,10 @@ const Companies = () => {
   return (
     <>
       <nav className="navBar">
-        <NavLink to="/"><IoIosArrowBack /></NavLink>
-        <p>Companies</p>
+        <NavLink to="/">
+          <IoIosArrowBack />
+        </NavLink>
+        <p>companies</p>
         <div className="settings">
           <FaMicrophone />
           <IoMdSettings />
@@ -26,12 +28,17 @@ const Companies = () => {
       <div className="companies-container">
         {companies.map((company) => (
           <div key={company.symbol} className="company-field">
-            <NavLink to={`/companies/${urlElement}/${(company.symbol).replace(/\s/g, '')}/company-details`}>
+            <NavLink
+              to={`/companies/${urlElement}/${company.symbol.replace(
+                /\s/g,
+                '',
+              )}/company-details`}
+            >
               <div className="div-company">
                 <div>
                   <div className="name-market">
                     <em>{company.companyName}</em>
-                    <em>{`Market Cap: $${(company.marketCap)}`}</em>
+                    <em>{`Market Cap: $${company.marketCap}`}</em>
                   </div>
                 </div>
               </div>

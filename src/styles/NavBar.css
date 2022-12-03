@@ -3,12 +3,12 @@
   justify-content: space-between;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.172);
-  background-color: hsl(192, 54%, 50%);
+  background-color: #ec4c8a;
   padding: 0.5em;
-  color: rgb(27, 34, 60);
+  color: #fff;
   width: 100vw;
   font-size: 24px;
-  font-weight: 800;
+  font-family: Lato, serif;
 }
 
 svg {
